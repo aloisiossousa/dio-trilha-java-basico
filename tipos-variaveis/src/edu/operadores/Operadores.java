@@ -2,18 +2,12 @@ package edu.operadores;
 
 public class Operadores {
     public static void main(String[] args) {
-       // String nomeCompleto = "LINGUAGEM " + "JAVA";
+       boolean variavel = true;
 
-       String concatenacao = "?";
-
-       concatenacao = 1+1+1+"1";
-       System.out.println(concatenacao);
-
-       concatenacao = 1+1+"1"+1;
-       System.out.println(concatenacao);
-       
-       concatenacao = "1"+(1+1+1+1);
-    
-       System.out.println(concatenacao);
+       if (variavel != true){
+        System.out.println("Verdadeira");
+       }else{
+        System.out.println("Falsa");
+       }
     }
 }
